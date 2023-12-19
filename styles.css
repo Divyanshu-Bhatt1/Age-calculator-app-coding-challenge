@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Margarine&family=Noto+Emoji&family=Poppins:ital,wght@0,700;1,400;1,800&family=Work+Sans&display=swap");
+/* font-family: 'Margarine', sans-serif;
+font-family: 'Noto Emoji', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(0, 0%, 86%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .container {
+    /* height: 28rem; */
+    height: 25rem;
+    width: 21.8rem;
+    border-radius: 22px;
+    border-bottom-right-radius: 115px;
+  }
+
+  .box-1 {
+    height: 8rem;
+    padding: 20px 18px 20px 20px;
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  .do {
+    margin-left: 11px;
+  }
+
+  .mo {
+    margin-left: 70px;
+  }
+
+  .yo {
+    margin-left: 50px;
+  }
+
+  input {
+    height: 2.4rem;
+    width: 4.4rem;
+    /* margin-left: 20px; */
+    font-size: 17px;
+    padding: 8px;
+  }
+
+  #d1{
+    margin-left: 10px;
+  }
+
+  #m1{
+    margin-left: 30px;
+  }
+
+  #y1{
+    margin-left: 30px;
+  }
+
+  hr {
+    width: 262px;
+    margin-left: 2.5rem;
+  }
+
+  button {
+    height: 60px;
+    width: 65px;
+    left: 140px;
+    /* bottom: 277px; */
+    bottom: 229px;
+  }
+
+  .box-2 {
+    height: 16rem;
+    padding: 39px 38px;
+    margin-top: 10px;
+  }
+
+  .h {
+    font-size: 2.889rem;
+    line-height: 1.2;
+  }
+  
+  .heading {
+    line-height: 1.2;
+    font-size: 2.889rem;
+  }
+
+  .war{
+    font-size: 7px;
+  }
+  
+  .do1{
+    margin-left: 9px;
+  }
+  
+  .mo1{
+    margin-left: 10px;
+  }
+  
+  .yo1{
+    margin-left: 10px;
+  }
+
+}
+
+@media (min-width: 720px) {
+  .container {
+    height: 30rem;
+    width: 43rem;
+    border-radius: 22px;
+    border-bottom-right-radius: 150px;
+  }
+
+  .box-1 {
+    height: 10rem;
+    padding: 35px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  .do {
+    margin-left: 20px;
+  }
+
+  .mo {
+    margin-left: 115px;
+  }
+
+  .yo {
+    margin-left: 90px;
+  }
+
+  input {
+    height: 3.4rem;
+    width: 8.4rem;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  hr {
+    width: 499px;
+    margin-left: 3.5rem;
+  }
+
+  button {
+    height: 65px;
+    width: 75px;
+    left: 556px;
+    bottom: 286px;
+  }
+
+  .box-2 {
+    height: 20rem;
+    padding: 39px 53px;
+  }
+
+  .h {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  
+  .heading {
+    line-height: 1.2;
+    font-size: 4rem;
+  }
+
+  .war{
+    font-size: 10px;
+  }
+  
+  .do1{
+    margin-left: 20px;
+  }
+  
+  .mo1{
+    margin-left: 35px;
+  }
+  
+  .yo1{
+    margin-left: 33px;
+  }
+
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+
+span{
+    line-height: 2;
+    letter-spacing: 2px;
+    color:hsl(0, 1%, 44%);
+}
+
+input {
+  border: solid hsl(0, 0%, 86%) 2px;
+  border-radius: 7px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+hr {
+  background-color: hsl(0, 0%, 86%);
+}
+
+button {
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  position: absolute;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.h {
+  color: hsl(259, 100%, 65%);
+  font-weight: 800;
+}
+
+.heading {
+  font-weight: 800;
+  color: hsl(0, 0%, 8%);
+}
+
+.war{
+  color:hsl(0, 100%, 67%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  visibility: hidden;
+}
